@@ -24,7 +24,7 @@ module.exports = {
           },
         ],
         body: [
-          "14px",
+          "0.875rem",
           {
             lineHeight: "1rem",
             fontWeight: "400",
@@ -37,6 +37,17 @@ module.exports = {
             fontWeight: "400",
           },
         ],
+        vsmall: [
+          "0.65rem",
+          {
+            lineHeight: "0.9rem",
+            fontWeight: "400",
+          },
+        ],
+      },
+      fontFamily: {
+        body: ["Argent", "sans-serif"],
+        sans: ["Montserrat", "sans-serif"],
       },
       // that is actual animation
       keyframes: (theme) => ({
